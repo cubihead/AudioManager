@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Audio Manager</string>
+    <string name="vibration">Vibration</string>
+    <string name="stream_system">System</string>
+    <string name="stream_music">Medien</string>
+    <string name="stream_ring">Anruf</string>
+    <string name="stream_notification">Benachrichtigungen</string>
+    <string name="stream_alarm">Alarm</string>
+    <string name="stream_voice_call">Telefonstimme</string>
+    <string name="quit">Beenden</string>
+</resources>

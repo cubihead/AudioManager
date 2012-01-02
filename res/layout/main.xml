@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" 
+	android:id="@+id/relativeLayout1" 
+	android:layout_width="fill_parent" 
+	android:layout_weight="1">
+	
+	<ScrollView 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingTop="15dip"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip">
+	
+<!-- 			<LinearLayout -->
+<!-- 				android:orientation="horizontal" -->
+<!-- 				android:layout_width="wrap_content" -->
+<!-- 				android:layout_height="wrap_content"> -->
+	
+<!-- 				<CheckBox -->
+<!-- 					android:text="@string/vibration" -->
+<!-- 					android:id="@+id/checkBox1" -->
+<!-- 					android:layout_width="wrap_content" -->
+<!-- 					android:layout_height="wrap_content" -->
+<!-- 					android:layout_gravity="center"	> -->
+<!-- 				</CheckBox> -->
+	
+<!-- 			</LinearLayout> -->
+			
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_system"
+			></TextView>
+
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout1"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+		
+				<SeekBar
+					android:id="@+id/seekBar1"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar1Text">
+				</SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar1Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+		
+			</RelativeLayout>
+			
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_music"
+			></TextView>
+	
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout2"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+				
+				<SeekBar
+					android:id="@+id/seekBar2"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar2Text"></SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar2Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+				
+			</RelativeLayout>
+	
+			<TextView
+				android:id="@+id/textView3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_ring"
+			></TextView>
+			
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout3"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+	
+				<SeekBar
+					android:id="@+id/seekBar3"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar3Text"></SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar3Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+				
+			</RelativeLayout>
+	
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_notification"
+			></TextView>
+			
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout4"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+	
+				<SeekBar
+					android:id="@+id/seekBar4"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar4Text"></SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar4Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+				
+			</RelativeLayout>
+	
+			<TextView
+				android:id="@+id/textView5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_alarm"
+			></TextView>
+			
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout5"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+	
+				<SeekBar
+					android:id="@+id/seekBar5"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar5Text"></SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar5Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+				
+			</RelativeLayout>
+	
+			<TextView
+				android:id="@+id/textView6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stream_voice_call"
+			></TextView>
+			
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content"
+				android:id="@+id/relativeLayout6"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+	
+				<SeekBar
+					android:id="@+id/seekBar6"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:progressDrawable="@drawable/progress_horizontal"
+					android:layout_toLeftOf="@+id/seekBar6Text"></SeekBar>
+				
+				<TextView 
+					android:text="0/10" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:id="@+id/seekBar6Text"
+					android:layout_centerVertical="true" 
+					android:layout_alignParentRight="true">
+				</TextView>
+				
+			</RelativeLayout>
+		
+		</LinearLayout>
+	
+	</ScrollView>
+	
+	<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true" 
+	    android:layout_alignParentLeft="true" 
+	    android:id="@+id/linearLayout2">
+	  	<com.google.ads.AdView android:id="@+id/adView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			ads:adUnitId="a14f017e3bdfc8a"
+			ads:adSize="BANNER"
+			ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID, A80669BDFE9B85AEB95D301763EE60A2"
+			ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+
+</RelativeLayout>

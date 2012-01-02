@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Audio Manager</string>
+    <string name="vibration">Vibration</string>
+    <string name="stream_system">System</string>
+    <string name="stream_music">Media</string>
+    <string name="stream_ring">Ringer</string>
+    <string name="stream_notification">Notification</string>
+    <string name="stream_alarm">Alarm</string>
+    <string name="stream_voice_call">Voice Call</string>
+    <string name="quit">Quit</string>
+    <string name="settings">Settings</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_summary">Choose application theme</string>
+    <string-array name="theme_names">
+        <item>"Dark"</item>
+        <item>"Light"</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+</resources>
